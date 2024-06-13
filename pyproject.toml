@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "knowdroids-async-test"
+version = "0.1.0"
+description = "FastApi application"
+authors = ["Ondrej Pleskac <pleskacondrej@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.0"
+uvicorn = "^0.27.1"
+aiohttp = "^3.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
